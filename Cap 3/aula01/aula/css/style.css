@@ -1,0 +1,73 @@
+body {
+  padding: 10px;
+  background-color: #ddd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul,
+li {
+  line-height: 20px;
+  list-style-type: square;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem; /*fonte relativa. 2 rem dignifica dobro*/
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#dados {
+  margin-left: 5px;
+  margin-top: 10px;
+  /* list-style-type: disc; */
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.personal-data {
+  display: flex; /*geralmente usa no elemento pai*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+table {
+  text-align: center;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: darkgreen;
+}

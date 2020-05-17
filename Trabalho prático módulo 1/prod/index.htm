@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho prático módulo 1</title>
+  </head>
+  <body>
+    <div>
+      <ul class="liLabels">
+        <li>
+          (R) Vermelho:
+        </li>
+        <li>
+          (G) Green:
+        </li>
+        <li>
+          (B) Blue:
+        </li>
+      </ul>
+      <ul>
+        <li><input type="range" id="redRange" min="0" max="255" step="1" /></li>
+        <li><input type="range" id="greenRange" min="0" max="255" step="1"/></li>
+        <li><input type="range" id="blueRange" min="0" max="255" step="1" /></li>
+      </ul>
+      <ul class="liInput">
+        <li><input type="text" id="redInput" readonly /></li>
+        <li><input type="text" id="greenInput" readonly /></li>
+        <li><input type="text" id="blueInput" readonly /></li>
+      </ul>
+      <ul>
+        <li><input type="text" id="rgbResult" disabled1/></li>
+      </ul>
+    </div>
+  </div>
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+ul {
+  align-content: center;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+li {
+}
+
+.liLabels {
+  line-height: 1.75rem;
+}
+
+.liInput {
+  line-height: 1.75rem;
+}
+
+#rgbResult {
+  height: 4rem;
+  width: 4rem;
+}
+
+#redInput,
+#greenInput,
+#blueInput {
+  width: 50px;
+  background-color: rgb(206, 205, 205);
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
