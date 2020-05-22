@@ -12,42 +12,55 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Desafio do módulo 1</title>
   </head>
-  <body>
-    <h1>Pesquisa de usuários</h1>
+  <body
+    style="
+      background-image: url('https://wallpaperaccess.com/full/138728.jpg');
+    "
+  >
+    <div class="container center">
+      <h1>Pesquisa de usuários</h1>
 
-    <div id="search-user" class="input-field col s6">
-      <div>
-        <input
-          placeholder="Busca"
-          id="search-user-input"
-          type="text"
-          class="validate"
-        />
-      </div>
-
-      <div>
-        <a class="waves-effect waves-light btn">
-          <i class="material-icons left" id="search-button">search</i>Buscar</a
-        >
-      </div>
-    </div>
-
-    <div id="search-results">
-      <div id="user-results" class="results">
-        <div id="user-summarize">
-          <h3>Nenhum Usuário Filtrado</h3>
+      <div id="search-user" class="row">
+        <div class="search-user-div col s10">
+          <input
+            placeholder="Busca"
+            id="search-user-input"
+            type="text"
+            class="validate"
+          />
         </div>
-        <div id="user-list"></div>
+
+        <div id="search-div-input" class="search-user-div cols s2">
+          <a
+            id="search-button"
+            class="btn-floating btn-large waves-effect waves-light disabled"
+            ><i class="material-icons">search</i></a
+          >
+        </div>
       </div>
 
-      <div id="user-statistic" class="results">
-        <div><h3>Estatística</h3></div>
+      <div id="search-results" class="container center">
+        <div id="user-results" class="results row z-depth-2">
+          <div id="user-summarize">
+            <h3 id="user-summarize-title" class="summarize">
+              Nenhum Usuário Filtrado
+            </h3>
+          </div>
+          <div id="user-list"></div>
+        </div>
+
+        <div>
+          <div id="user-statistic" class="results row z-depth-5">
+            <div><h3 class="summarize">Estatística</h3></div>
+            <div id="statistics-list" class="summarize"></div>
+          </div>
+        </div>
       </div>
     </div>
-
     <script src="./js/script.js"></script>
   </body>
 </html>
