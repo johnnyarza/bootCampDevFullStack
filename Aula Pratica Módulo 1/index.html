@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body style="background-image: url(./img/tune.jpg);">
+    <div class="container">
+      <h1 style="text-align: center;">Radio Podcast</h1>
+
+      <div class="center">
+        <div>
+          <input
+            value="87"
+            id="input-frequency"
+            type="text"
+            readonly
+            disabled
+          />
+        </div>
+        <div>
+          <a class="btn-floating pulse"
+            ><i class="material-icons">music_note</i></a
+          >
+        </div>
+      </div>
+
+      <div class="flex-row">
+        <div id="range-interval-min">min</div>
+        <input type="range" id="input-range" step="0.5" />
+        <div id="range-interval-max">max</div>
+      </div>
+
+      <div id="div-content" class="center">
+        Nenhum podcast encontrado
+      </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/podcasts.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

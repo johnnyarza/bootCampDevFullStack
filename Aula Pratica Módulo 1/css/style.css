@@ -1,0 +1,41 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#input-frequency,
+#range-interval-max,
+#range-interval-min {
+  font-weight: bold;
+}
+
+#input-range {
+  max-width: 700px;
+}
+
+.container {
+  width: 900px;
+}
+
+#div-content {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#input-frequency {
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
