@@ -1,0 +1,62 @@
+2020-06-06T00:10:55.353Z [my-bank-api] info: API started
+2020-06-06T00:12:45.678Z [my-bank-api] info: API started
+2020-06-06T00:13:02.619Z [my-bank-api] info: GET /avg/type/subject/Fórum/02 - Node - succeed
+2020-06-06T00:13:31.669Z [my-bank-api] info: API started
+2020-06-06T00:13:34.004Z [my-bank-api] info: GET "/avg/type/subject/Fórum/02 - Node" - succeed
+2020-06-06T00:14:03.968Z [my-bank-api] info: API started
+2020-06-06T00:14:08.522Z [my-bank-api] info: GET "/3best/type/subject/Fórum/02 - Node" - succeed
+2020-06-06T00:15:24.600Z [my-bank-api] info: API started
+2020-06-06T00:16:47.698Z [my-bank-api] info: API started
+2020-06-06T00:17:18.803Z [my-bank-api] info: API started
+2020-06-06T00:18:09.546Z [my-bank-api] info: API started
+2020-06-06T00:19:34.249Z [my-bank-api] info: API started
+2020-06-06T00:22:06.041Z [my-bank-api] info: API started
+2020-06-06T00:23:23.707Z [my-bank-api] info: API started
+2020-06-06T00:23:29.182Z [my-bank-api] error: DELETE "/grades/111"  - Nota não encontrada
+2020-06-06T00:25:04.825Z [my-bank-api] info: API started
+2020-06-06T00:25:06.750Z [my-bank-api] error: DELETE "/grades/111"  - Nota não encontrada
+2020-06-06T00:25:19.843Z [my-bank-api] error: PUT "/grades/111" - Nota não encontrado
+2020-06-06T00:25:49.229Z [my-bank-api] info: GET "/grades/avg/student/subject/Loiane Groner/02 - Nod" - succeed
+2020-06-06T00:27:02.126Z [my-bank-api] info: API started
+2020-06-06T00:29:20.587Z [my-bank-api] info: API started
+2020-06-06T00:29:24.336Z [my-bank-api] error: GET "/avg/student/subject/:student/:subject" - Dados não encontrados
+2020-06-06T00:30:15.263Z [my-bank-api] info: API started
+2020-06-06T00:30:50.111Z [my-bank-api] info: API started
+2020-06-06T00:30:52.688Z [my-bank-api] error: GET "/avg/student/subject/:student/:subject" - Dados não encontrados
+2020-06-06T00:32:46.725Z [my-bank-api] info: API started
+2020-06-06T00:34:00.319Z [my-bank-api] info: API started
+2020-06-06T00:34:03.494Z [my-bank-api] error: GET "/avg/student/subject/:student/Loiane Groner/02 - Nod" - Dados não encontrados
+2020-06-06T00:39:07.425Z [my-bank-api] info: API started
+2020-06-06T00:43:05.938Z [my-bank-api] info: API started
+2020-06-06T01:01:13.534Z [my-bank-api] info: API started
+2020-06-06T01:01:30.807Z [my-bank-api] info: GET "/grades" - succeed}
+2020-06-06T01:02:53.690Z [my-bank-api] info: GET "/grades" - succeed}
+2020-06-06T01:07:14.499Z [my-bank-api] info: API started
+2020-06-06T01:07:32.111Z [my-bank-api] info: GET "/grades" - succeed}
+2020-06-06T01:20:41.010Z [my-bank-api] info: API started
+2020-06-06T01:21:54.331Z [my-bank-api] info: GET "/grades/avg/type/subject/Fórum/01 - JavaScript" - succeed
+2020-06-06T01:22:27.735Z [my-bank-api] info: GET "/grades/3best/type/subject/Trabalho Prático/03 - React" - succeed
+2020-06-06T01:23:40.805Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/02 - Node" - succeed
+2020-06-06T01:24:33.619Z [my-bank-api] info: GET "/grades/avg/student/subject/Loiane Groner/02 - Node" - succeed
+2020-06-06T01:25:51.933Z [my-bank-api] info: POST "/grades" [object Object]" - succeed
+2020-06-06T01:25:52.695Z [my-bank-api] info: API started
+2020-06-06T01:28:48.542Z [my-bank-api] info: API started
+2020-06-06T01:29:05.873Z [my-bank-api] info: GET "/grades/avg/student/subject/Loiane Groner/02 - Node" - succeed
+2020-06-06T01:30:02.642Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/02 - Node" - succeed
+2020-06-06T01:30:37.412Z [my-bank-api] info: GET "/grades/avg/type/subject/Fórum/01 - JavaScript" - succeed
+2020-06-06T01:31:04.297Z [my-bank-api] info: GET "/grades/avg/type/subject/Fórum/01 - JavaScript" - succeed
+2020-06-06T01:31:28.702Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/02 - Node" - succeed
+2020-06-06T01:31:59.798Z [my-bank-api] info: GET "/grades/avg/student/subject/Loiane Groner/02 - Node" - succeed
+2020-06-06T01:32:37.867Z [my-bank-api] info: GET "/grades/avg/student/subject/Roberto Achar/03 - React" - succeed
+2020-06-06T01:33:29.137Z [my-bank-api] info: GET "/grades/33 - succeed
+2020-06-06T01:34:27.017Z [my-bank-api] info: API started
+2020-06-06T01:34:51.034Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/01 - JavaScript" - succeed
+2020-06-06T01:35:20.814Z [my-bank-api] info: DELETE "/grades/32"  - succeed
+2020-06-06T01:35:21.888Z [my-bank-api] info: API started
+2020-06-06T01:36:04.438Z [my-bank-api] info: GET "/grades/avg/type/subject/Trabalho Prático/04 - MongoDB" - succeed
+2020-06-06T01:36:22.339Z [my-bank-api] info: GET "/grades/43 - succeed
+2020-06-06T01:48:51.094Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/02 - Node" - succeed
+2020-06-06T01:51:42.870Z [my-bank-api] info: API started
+2020-06-06T01:52:47.039Z [my-bank-api] info: GET "/grades/avg/type/subject/Desafio/02 - Node" - succeed
+2020-06-06T22:07:40.010Z [my-bank-api] info: API started
+2020-06-06T22:08:44.912Z [my-bank-api] error: GET "/grades/avg/type/subject/Desafio/02 - Nod" - Não foi possivel encontrar notas
