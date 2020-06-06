@@ -1,10 +1,14 @@
 {
-  "nextId": 6,
+  "nextId": 11,
   "accounts": [
-    { "id": 1, "name": "Guilherme Assis", "balance": 200 },
+    { "id": 1, "name": "Guilherme Assis", "balance": 3000.66 },
     { "id": 2, "name": "Joao Silva", "balance": 550 },
     { "id": 3, "name": "José Rocha", "balance": 550.35 },
     { "id": 4, "name": "Maria da Silva", "balance": 100.27 },
-    { "id": 5, "name": "Joana Moraes", "balance": 1047.87 }
+    { "id": 5, "name": "Joana Moraes", "balance": 1047.87 },
+    { "id": 6, "name": "Junior Teixeira", "balance": 199.77 },
+    { "id": 8, "name": "Gabriel Silva", "balance": 88.88 },
+    { "id": 9, "name": "Mariano Chimbinha", "balance": 111.22 },
+    { "id": 10, "name": "Teste doc", "balance": 742.34 }
   ]
 }

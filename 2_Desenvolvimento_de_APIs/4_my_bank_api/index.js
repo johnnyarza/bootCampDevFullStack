@@ -1,70 +1,43 @@
-var express = require('express');
-var fs = require('fs');
-const util = require('util');
+import express from 'express';
+import fs from 'fs';
+import winston from 'winston';
+import accountRouter from './routers/accounts.js';
+import swaggerUi from 'swagger-ui-express';
+import { swaggerDocument } from './doc.js';
 
-var app = express();
+const app = express();
+
+global.fileName = 'accounts.json';
+
+const { combine, timestamp, label, printf } = winston.format;
+const myFormat = printf(({ level, message, label, timestamp }) => {
+  return `${timestamp} [${label}] ${level}: ${message}`;
+});
+global.logger = winston.createLogger({
+  level: 'silly',
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: 'my-bank-api.log' }),
+  ],
+  format: combine(label({ label: 'my-bank-api' }), timestamp(), myFormat),
+});
 
 app.use(express.json()); // necessario para a API saber q estamos usando JSON
+app.use('/account', accountRouter);
+app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.post('/account', (req, res) => {
-  let account = req.body;
-  try {
-    let data = getAccountsJSON();
-    insertAccount(res, data, account);
-  } catch (err) {
-    res.status(400).send({ error: err.message });
-  }
-});
-
-function insertAccount(res, data, account) {
-  let json = JSON.parse(data);
-  account = { id: json.nextId, ...account };
-  json.accounts.push(account);
-  json.nextId++;
-  fs.writeFile('accounts.json', JSON.stringify(json), (err) => {
-    if (err) {
-      console.log('erro na leitura');
-      res.status(400).send({ error: err.message });
-    } else {
-      res.send(`Account ${account.name} posted with id: ${account.id}`);
-    }
-  });
-}
-
-app.get('/account', (req, res) => {
-  fs.readFile('accounts.json', 'utf8', (err, data) => {});
-});
-
-function accountsPromise() {
-  return new Promise((resolve, reject) => {
-    fs.readFile('accounts.json', 'utf8', function (err, data) {
-      if (err) reject(err);
-      resolve(data);
-    });
-  });
-}
-
-async function getAccountsJSON() {
-  const data = await accountsPromise();
-  return data;
-}
-
-app.listen(3000, () => {
+app.listen(3000, async () => {
   //aqui que a API começa executando um callback
   try {
-    initialJsonFile();
+    await initialJsonFile();
   } catch (err) {
-    console.log(err);
+    createInitialJsonFile();
   }
-  console.log('API started');
+  logger.info('API started');
 });
 
 function initialJsonFile() {
-  fs.readFile('accounts.json', 'utf8', (err, data) => {
-    if (err) {
-      createInitialJsonFile();
-    }
-  });
+  return fs.promises.readFile(global.fileName, 'utf8');
 }
 
 function createInitialJsonFile() {
@@ -72,7 +45,7 @@ function createInitialJsonFile() {
     nextId: 1,
     accounts: [],
   };
-  fs.writeFile('accounts.json', JSON.stringify(initialJson), (err) => {
-    if (err) console.log(err);
+  fs.writeFile(global.fileName, JSON.stringify(initialJson), (err) => {
+    if (err) logger.console.error(err);
   });
 }

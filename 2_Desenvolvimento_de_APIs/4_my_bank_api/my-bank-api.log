@@ -1,0 +1,28 @@
+2020-06-01T23:36:22.440Z [my-bank-api] info 
+2020-06-01T23:36:37.833Z [my-bank-api] info API started
+2020-06-01T23:36:58.046Z [my-bank-api] info: API started
+2020-06-01T23:39:29.401Z [my-bank-api] info: API started
+2020-06-01T23:39:34.303Z [my-bank-api] info: API started
+2020-06-01T23:43:07.115Z [my-bank-api] info: API started
+2020-06-01T23:47:18.567Z [my-bank-api] info: POST /account - {"name":"Gabriel Silva","balance":88.88}
+2020-06-01T23:49:37.192Z [my-bank-api] info: API started
+2020-06-01T23:50:13.916Z [my-bank-api] info: API started
+2020-06-01T23:50:20.673Z [my-bank-api] error: POST /account - accounta is not defined
+2020-06-02T00:11:10.241Z [my-bank-api] info: API started
+2020-06-02T00:12:28.411Z [my-bank-api] info: API started
+2020-06-02T00:12:30.409Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"Guilherme Assis","balance":3000.66},{"id":2,"name":"Joao Silva","balance":550},{"id":3,"name":"José Rocha","balance":550.35},{"id":4,"name":"Maria da Silva","balance":100.27},{"id":5,"name":"Joana Moraes","balance":1047.87},{"id":6,"name":"Junior Teixeira","balance":199.77},{"id":7,"name":"Marisa Gabriela Silva","balance":77.55},{"id":8,"name":"Gabriel Silva","balance":88.88}]}
+2020-06-02T00:13:26.553Z [my-bank-api] info: API started
+2020-06-02T00:13:27.953Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Guilherme Assis","balance":3000.66}
+2020-06-02T00:14:06.873Z [my-bank-api] info: DELETE /account/:id - id: 7
+2020-06-02T16:02:04.201Z [my-bank-api] info: API started
+2020-06-02T16:06:50.438Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"Guilherme Assis","balance":3000.66},{"id":2,"name":"Joao Silva","balance":550},{"id":3,"name":"José Rocha","balance":550.35},{"id":4,"name":"Maria da Silva","balance":100.27},{"id":5,"name":"Joana Moraes","balance":1047.87},{"id":6,"name":"Junior Teixeira","balance":199.77},{"id":8,"name":"Gabriel Silva","balance":88.88}]}
+2020-06-02T16:06:56.228Z [my-bank-api] info: GET /account/:id - undefined
+2020-06-02T16:06:59.166Z [my-bank-api] info: GET /account/:id - {"id":8,"name":"Gabriel Silva","balance":88.88}
+2020-06-02T16:07:02.463Z [my-bank-api] info: GET /account/:id - {"id":6,"name":"Junior Teixeira","balance":199.77}
+2020-06-02T16:07:04.832Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"Guilherme Assis","balance":3000.66},{"id":2,"name":"Joao Silva","balance":550},{"id":3,"name":"José Rocha","balance":550.35},{"id":4,"name":"Maria da Silva","balance":100.27},{"id":5,"name":"Joana Moraes","balance":1047.87},{"id":6,"name":"Junior Teixeira","balance":199.77},{"id":8,"name":"Gabriel Silva","balance":88.88}]}
+2020-06-02T16:07:47.410Z [my-bank-api] info: POST /account - {"name":"Mariano Chimbinha","balance":111.22}
+2020-06-02T16:09:50.802Z [my-bank-api] info: API started
+2020-06-02T19:52:09.658Z [my-bank-api] info: API started
+2020-06-02T19:53:12.778Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"Guilherme Assis","balance":3000.66},{"id":2,"name":"Joao Silva","balance":550},{"id":3,"name":"José Rocha","balance":550.35},{"id":4,"name":"Maria da Silva","balance":100.27},{"id":5,"name":"Joana Moraes","balance":1047.87},{"id":6,"name":"Junior Teixeira","balance":199.77},{"id":8,"name":"Gabriel Silva","balance":88.88},{"id":9,"name":"Mariano Chimbinha","balance":111.22}]}
+2020-06-02T19:56:26.661Z [my-bank-api] info: POST /account - {"name":"Teste doc","balance":742.34}
+2020-06-02T19:57:13.026Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"Guilherme Assis","balance":3000.66},{"id":2,"name":"Joao Silva","balance":550},{"id":3,"name":"José Rocha","balance":550.35},{"id":4,"name":"Maria da Silva","balance":100.27},{"id":5,"name":"Joana Moraes","balance":1047.87},{"id":6,"name":"Junior Teixeira","balance":199.77},{"id":8,"name":"Gabriel Silva","balance":88.88},{"id":9,"name":"Mariano Chimbinha","balance":111.22},{"id":10,"name":"Teste doc","balance":742.34}]}
