@@ -1,0 +1,8 @@
+{
+  "nextId": 4,
+  "lancamentos": [
+    { "id": 1, "valor": 20, "categoria": "Salário" },
+    { "id": 2, "valor": -20, "categoria": "Salário" },
+    { "id": 3, "valor": -20, "categoria": "Salário", "data": "08/06/2020" }
+  ]
+}
