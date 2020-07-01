@@ -4325,3 +4325,31 @@
 2020-06-24T16:28:16.641Z [grades-control-api] info: GET /grade
 2020-06-24T16:28:19.265Z [grades-control-api] info: GET /grade
 2020-06-24T16:30:54.307Z [grades-control-api] info: GET /grade
+2020-06-27T17:52:17.270Z [grades-control-api] info: API started!
+2020-06-27T17:52:17.278Z [grades-control-api] info: POST /grade - {"id":1,"student":"John Petrucci","subject":"01 - JavaScript","type":"Exercícios","value":3,"timestamp":"2020-06-27T17:52:17.276Z"}
+2020-06-27T17:52:17.294Z [grades-control-api] info: POST /grade - {"id":2,"student":"John Petrucci","subject":"02 - Node","type":"Exercícios","value":1,"timestamp":"2020-06-27T17:52:17.289Z"}
+2020-06-27T17:52:17.352Z [grades-control-api] info: POST /grade - {"id":3,"student":"John Petrucci","subject":"03 - React","type":"Exercícios","value":4,"timestamp":"2020-06-27T17:52:17.344Z"}
+2020-06-27T17:52:17.388Z [grades-control-api] info: POST /grade - {"id":4,"student":"John Petrucci","subject":"01 - JavaScript","type":"Trabalho Prático","value":20,"timestamp":"2020-06-27T17:52:17.377Z"}
+2020-06-27T17:52:17.419Z [grades-control-api] info: POST /grade - {"id":5,"student":"John Petrucci","subject":"02 - Node","type":"Trabalho Prático","value":2,"timestamp":"2020-06-27T17:52:17.411Z"}
+2020-06-27T17:52:17.454Z [grades-control-api] info: POST /grade - {"id":6,"student":"John Petrucci","subject":"03 - React","type":"Trabalho Prático","value":40,"timestamp":"2020-06-27T17:52:17.450Z"}
+2020-06-27T17:52:17.476Z [grades-control-api] info: POST /grade - {"id":7,"student":"John Petrucci","subject":"01 - JavaScript","type":"Desafio","value":11,"timestamp":"2020-06-27T17:52:17.475Z"}
+2020-06-27T17:52:17.495Z [grades-control-api] info: POST /grade - {"id":8,"student":"John Petrucci","subject":"02 - Node","type":"Desafio","value":25,"timestamp":"2020-06-27T17:52:17.489Z"}
+2020-06-27T17:52:17.522Z [grades-control-api] info: POST /grade - {"id":9,"student":"John Petrucci","subject":"03 - React","type":"Desafio","value":15,"timestamp":"2020-06-27T17:52:17.520Z"}
+2020-06-27T17:52:17.561Z [grades-control-api] info: POST /grade - {"id":10,"student":"Mike Portnoy","subject":"01 - JavaScript","type":"Exercícios","value":6,"timestamp":"2020-06-27T17:52:17.545Z"}
+2020-06-27T17:52:17.594Z [grades-control-api] info: POST /grade - {"id":11,"student":"Mike Portnoy","subject":"02 - Node","type":"Exercícios","value":7,"timestamp":"2020-06-27T17:52:17.590Z"}
+2020-06-27T17:52:17.627Z [grades-control-api] info: POST /grade - {"id":12,"student":"Mike Portnoy","subject":"03 - React","type":"Exercícios","value":5,"timestamp":"2020-06-27T17:52:17.623Z"}
+2020-06-27T17:52:17.656Z [grades-control-api] info: POST /grade - {"id":13,"student":"Mike Portnoy","subject":"01 - JavaScript","type":"Trabalho Prático","value":31,"timestamp":"2020-06-27T17:52:17.641Z"}
+2020-06-27T17:52:17.675Z [grades-control-api] info: POST /grade - {"id":14,"student":"Mike Portnoy","subject":"02 - Node","type":"Trabalho Prático","value":30,"timestamp":"2020-06-27T17:52:17.673Z"}
+2020-06-27T17:52:17.700Z [grades-control-api] info: POST /grade - {"id":15,"student":"Mike Portnoy","subject":"03 - React","type":"Trabalho Prático","value":34,"timestamp":"2020-06-27T17:52:17.678Z"}
+2020-06-27T17:52:17.741Z [grades-control-api] info: POST /grade - {"id":16,"student":"Mike Portnoy","subject":"01 - JavaScript","type":"Desafio","value":24,"timestamp":"2020-06-27T17:52:17.725Z"}
+2020-06-27T17:52:17.756Z [grades-control-api] info: POST /grade - {"id":17,"student":"Mike Portnoy","subject":"02 - Node","type":"Desafio","value":28,"timestamp":"2020-06-27T17:52:17.743Z"}
+2020-06-27T17:52:17.793Z [grades-control-api] info: POST /grade - {"id":18,"student":"Mike Portnoy","subject":"03 - React","type":"Desafio","value":10,"timestamp":"2020-06-27T17:52:17.784Z"}
+2020-06-27T17:52:17.825Z [grades-control-api] info: POST /grade - {"id":19,"student":"Neal Morse","subject":"01 - JavaScript","type":"Exercícios","value":4,"timestamp":"2020-06-27T17:52:17.810Z"}
+2020-06-27T17:52:17.844Z [grades-control-api] info: POST /grade - {"id":20,"student":"Neal Morse","subject":"02 - Node","type":"Exercícios","value":10,"timestamp":"2020-06-27T17:52:17.842Z"}
+2020-06-27T17:52:17.875Z [grades-control-api] info: POST /grade - {"id":21,"student":"Neal Morse","subject":"03 - React","type":"Exercícios","value":8,"timestamp":"2020-06-27T17:52:17.873Z"}
+2020-06-27T17:52:17.895Z [grades-control-api] info: POST /grade - {"id":22,"student":"Neal Morse","subject":"01 - JavaScript","type":"Trabalho Prático","value":11,"timestamp":"2020-06-27T17:52:17.891Z"}
+2020-06-27T17:52:17.926Z [grades-control-api] info: POST /grade - {"id":23,"student":"Neal Morse","subject":"02 - Node","type":"Trabalho Prático","value":18,"timestamp":"2020-06-27T17:52:17.917Z"}
+2020-06-27T17:52:17.972Z [grades-control-api] info: POST /grade - {"id":24,"student":"Neal Morse","subject":"03 - React","type":"Trabalho Prático","value":10,"timestamp":"2020-06-27T17:52:17.968Z"}
+2020-06-27T17:52:18.026Z [grades-control-api] info: POST /grade - {"id":25,"student":"Neal Morse","subject":"01 - JavaScript","type":"Desafio","value":20,"timestamp":"2020-06-27T17:52:18.019Z"}
+2020-06-27T17:52:18.076Z [grades-control-api] info: POST /grade - {"id":26,"student":"Neal Morse","subject":"02 - Node","type":"Desafio","value":34,"timestamp":"2020-06-27T17:52:18.073Z"}
+2020-06-27T17:52:18.094Z [grades-control-api] info: POST /grade - {"id":27,"student":"Neal Morse","subject":"03 - React","type":"Desafio","value":20,"timestamp":"2020-06-27T17:52:18.088Z"}
