@@ -1,10 +1,8 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import studentRouter from './src/routers/studentRouter.js';
-process.env.USER_DB ='johnny''
 
-const uri =
-  'mongodb+srv://johnny:1a2b3c4d5e6f@cluster0.oonph.mongodb.net/grades?retryWrites=true&w=majority';
+const uri = '';
 
 const app = express();
 
